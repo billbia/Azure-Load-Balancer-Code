@@ -40,29 +40,29 @@ public class AzureVMApiDemo {
     private static NetworkResourceProviderClient networkResourceProviderClient;
 
     // the source URI of VHD
-    private static String sourceVhdUriLB = "https://chujianpro21.blob.core.windows.net/system/Microsoft.Compute/Images/vhds/cc15619p22lbv2-osDisk.1cf68388-ac67-4165-bec0-67341257d50a.vhd";
-    protected static String sourceVhdUriDC = "https://chujianpro21.blob.core.windows.net/system/Microsoft.Compute/Images/vhds/cc15619p22dcv6-osDisk.b0c453f3-f75f-4a2d-bd9c-ae055b830124.vhd";
-    private static String sourceVhdUriLG = "https://chujianpro21.blob.core.windows.net/system/Microsoft.Compute/Images/vhds/cc15619p22lgv7-osDisk.c0410b8f-821e-4de3-b725-2a834fd10060.vhd";
+    private static String sourceVhdUriLB = "";
+    protected static String sourceVhdUriDC = "";
+    private static String sourceVhdUriLG = "";
     // configuration for your application token
     private static String baseURI = "https://management.azure.com/";
     private static String basicURI = "https://management.core.windows.net/";
     private static String endpointURL = "https://login.windows.net/";
 
-    protected static String subscriptionId = "92ccc168-9150-4722-8ba4-840d893ea80d";
-    private static String tenantID = "a6ad9e30-360d-41ae-b651-30df5d9d9c89";
-    private static String applicationID = "d7c98aa1-4179-46b7-9146-95aafe193784";
-    private static String applicationKey = "pro21";
+    protected static String subscriptionId = "";
+    private static String tenantID = "";
+    private static String applicationID = "";
+    private static String applicationKey = "";
 
     // configuration for your resource account/storage account
-    protected static String storageAccountName = "chujianpro21";
-    private static String resourceGroupNameWithVhdLG = "chujian";
-    protected static String resourceGroupNameWithVhdDC = "chujian";
+    protected static String storageAccountName = "";
+    private static String resourceGroupNameWithVhdLG = "";
+    protected static String resourceGroupNameWithVhdDC = "";
     protected static String sizeDC = VirtualMachineSizeTypes.STANDARD_A1;
     private static String sizeLG = "Standard_D1";
     private static String sizeLB = "Standard_D1";
     private static String region = "EastUs";
     private static String vmName = "";
-    protected static String resourceGroupName = "Chujian";
+    protected static String resourceGroupName = "";
 
     // configuration for your virtual machine
     private static String adminName = "ubuntu";
